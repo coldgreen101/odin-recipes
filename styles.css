@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  background: url(img/index-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
